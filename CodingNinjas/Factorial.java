@@ -12,6 +12,11 @@ class Solution {
 		// Write code here
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
-		System.out.println(fact(num));
+		if(num<0){
+			System.out.println("Error");
+
+		}else{
+			System.out.println(fact(num));
+		}
 	}
 }
