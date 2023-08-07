@@ -18,9 +18,9 @@ class Solution {
 			System.out.println("3rd Quadrant");
 		}else if(a>0 && b<0){
 			System.out.println("4th Quadrant");
-		}else if(a>0 && b==0){
+		}else if(a!=0 && b==0){
 			System.out.println("x axis");
-		}else if(a==0 && b>0){
+		}else if(a==0 && b!=0){
 			System.out.println("y axis");
 		}else{
 			System.out.println("Origin");
