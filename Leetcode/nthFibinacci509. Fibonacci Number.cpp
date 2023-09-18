@@ -16,6 +16,13 @@ public:
 
 
 /*
+_____________
+try 
+if(n<=1){
+return n;
+_____________
+
+
 F(0) = 0, F(1) = 1
 F(n) = F(n - 1) + F(n - 2), for n > 1.
 Given n, calculate F(n).
