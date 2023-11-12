@@ -1,3 +1,4 @@
+//GFG and CN
 //{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
@@ -51,3 +52,22 @@ int main() {
 	return 0;
 }
 // } Driver Code Ends
+
+
+
+// CN
+int lowerBound(vector<int> arr, int n, int x) {
+	// Write your code here
+	int i,  ind = 0;
+	if(x == 0) {
+		return 0;
+	}
+
+	for(int i = 0 ; i < n ; i++) {
+		if(arr[i] == x) return i;
+		if(arr[i] < x) ind = i;
+
+	}
+	return ind+1;
+}
+
